@@ -1,0 +1,137 @@
+/* * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+} */
+
+.nav-link {
+  color: black;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 1.2rem;
+}
+
+.nav-link:hover {
+  background-color: orange;
+}
+
+#home-banner {
+  background: url(../images/banner.jpg) no-repeat;
+  /* background-size: cover; */
+}
+
+.carousel-text {
+  width: 50%;
+}
+
+.carousel-text h3 {
+  font-size: 3em;
+  color: #000;
+  background: #ffea00;
+  font-family: "Century Gothic";
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  width: 70%;
+  text-align: center;
+  font-weight: 600;
+  float: none;
+}
+
+.carousel-text h4 {
+  font-size: 3em;
+  color: #000;
+  background: #ffea00;
+  font-family: "Century Gothic";
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.carousel-text p {
+  color: #fff;
+  font-size: 1.7em;
+  line-height: 1.5em;
+  font-family: "Century Gothic";
+  background: #414146;
+  text-align: left;
+  padding: 0px 10px;
+  width: fit-content;
+  margin-bottom: 1px;
+}
+
+#home-btn {
+  margin: 20px 170px 0;
+  border: none;
+  font-family: inherit;
+  color: #fff;
+  background-color: #000;
+  border-bottom: 3px solid #ffea00;
+  letter-spacing: 1px;
+  outline: none;
+  border-radius: 0;
+}
+
+#carousel-page-btn {
+  width: 20px;
+  height: 20px;
+  /* background: url(../images/img-sprite.png) no-repeat -126px -15px; */
+  background-color: rgb(45, 45, 45);
+  border: 2px solid black;
+}
+
+#carousel-page-btn.active {
+  background-color: #ffea00;
+}
+
+.carousel-control-prev {
+  background-color: black;
+  height: fit-content;
+  width: fit-content;
+  margin: auto 0;
+  padding: 20px;
+  position: absolute;
+  left: 0;
+}
+
+.carousel-control-next {
+  background-color: black;
+  height: fit-content;
+  width: fit-content;
+  margin: auto 0;
+  padding: 20px;
+  position: absolute;
+  right: 0;
+}
+
+#popup-btn {
+  border: none;
+  color: #fff;
+  background-color: #000;
+  letter-spacing: 1px;
+  outline: none;
+  border-radius: 0;
+}
+
+.table-head {
+  background-color: #ffea00;
+  background: #ffea00;
+}
+
+.remove-pm {
+  margin: 0;
+  padding: 0;
+}
+
+.footer {
+  background-color: #414146;
+  color: white;
+}
+
+.twitter-bullet {
+  list-style-image: url(https://fpwebdevelopment.netlify.app/images/tw.png);
+}
