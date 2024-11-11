@@ -10,7 +10,6 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./css/achievement.css" />
     <link rel="stylesheet" href="./css/footer.css" />
   </head>
   <body>
@@ -42,54 +41,40 @@
               <a class="nav-link" href="./blog.html">BLOG</a>
             </li>
             <li class="nav-item ms-3">
-              <a class="nav-link" href="./about.html">ABOUT US</a>
+              <a class="nav-link active" aria-current="page" href="./about.html"
+                >ABOUT US</a
+              >
             </li>
             <li class="nav-item ms-3">
               <a class="nav-link" href="./contact.html">CONTACT</a>
             </li>
             <li class="nav-item ms-3">
-              <a
-                class="nav-link active"
-                aria-current="page"
-                href="./achievement.html"
-                >ACHIEVEMENT</a
-              >
+              <a class="nav-link" href="./achievement.html">ACHIEVEMENT</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <div class="achievement-menu d-flex">
-      <div class="container">
-        <div class="text-center">
-          <h1>Achievement App</h1>
-          <div class="achievement-form align-items-center">
-            <input
-              type="text"
-              class="text-input"
-              placeholder="Add a achievement..."
-              id="add-achievement"
-            />
-            <button
-              class="btn btn-danger"
-              id="add-btn"
-              onclick="addAchievement()"
-            >
-              Add
-            </button>
-          </div>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <img
+            src="https://fpwebdevelopment.netlify.app/images/about-img.jpg"
+            alt=""
+            srcset=""
+          />
         </div>
-
-        <div
-          class="card mt-4 p-2 align-items-center"
-          style="max-width: 50%; margin: 0 auto"
-        >
-          <ul
-            id="achievements-list"
-            class=""
-            style="list-style-type: none"
-          ></ul>
+        <div class="col">
+          <h3>ABOUT US</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur.
+          </p>
         </div>
       </div>
     </div>
@@ -309,6 +294,5 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
-    <script src="./js/achievement.js"></script>
   </body>
 </html>

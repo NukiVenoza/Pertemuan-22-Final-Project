@@ -1,0 +1,8 @@
+.footer {
+  background-color: #414146;
+  color: white;
+}
+
+.twitter-bullet {
+  list-style-image: url(https://fpwebdevelopment.netlify.app/images/tw.png);
+}
